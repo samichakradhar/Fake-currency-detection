@@ -1,0 +1,200 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <meta name="description" content="">
+        <meta name="author" content="">
+
+        <title>Fakecurrency detection</title>
+
+        <!-- CSS FILES -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;300;400;700;900&display=swap" rel="stylesheet">
+
+        <link href="../static/css/bootstrap.min.css" rel="stylesheet">
+        <link href="../static/css/bootstrap-icons.css" rel="stylesheet">
+
+        <link rel="stylesheet" href="../static/css/slick.css"/>
+
+        <link href="../static/css/tooplate-little-fashion.css" rel="stylesheet">
+        
+
+    </head>
+    
+    <body>
+
+        <section class="preloader">
+            <div class="spinner">
+                <span class="sk-inner-circle"></span>
+            </div>
+        </section>
+    
+        <main>
+
+            <nav class="navbar navbar-expand-lg">
+                <div class="container">
+                  
+
+                    <a class="navbar-brand" href="index.html">
+                        <strong><span>Fake </span> Currency Detection</strong>
+                    </a>
+
+                    
+
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav mx-auto">
+                            <li class="nav-item">
+                                <a class="nav-link" href="{{ url_for('first')}}">Home</a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link" href="{{ url_for('login')}}">Login</a>
+                            </li>
+
+                          
+                        </ul>
+
+                        
+                    </div>
+                </div>
+            </nav>
+
+            <header class="site-header section-padding-img site-header-image">
+                <div class="container">
+                    <div class="row">
+
+                        <div class="col-lg-10 col-12 header-info">
+                            
+                        </div>
+                    </div>
+                </div>
+
+                <img src="../static/images/header/money3.jpg" class="header-image img-fluid" alt="">
+				
+            </header>
+
+            <section class="contact section-padding">
+                <div class="container">
+                    <div class="row">
+                          
+                        
+  <head>
+
+        
+         
+	
+		 <script>
+        addEventListener("load", function () {
+            setTimeout(hideURLbar, 0);
+        }, false);
+
+        function hideURLbar() {
+            window.scrollTo(0, 1);
+        }
+
+        function login(){
+        var uname = document.getElementById("uname").value;
+        var pwd = document.getElementById("pwd").value;
+
+	if(uname == "admin" && pwd == "admin")
+	{
+	//   alert("Login Success!");
+	  
+	  window.location = "{{url_for('index')}}";
+	  return false;
+	}
+	else
+	{
+	alert("Invalid Credentials!")
+	}
+        }
+		
+		  
+
+
+ 
+    </script>
+	
+</head>
+ 
+ <body id="page-top">
+
+   
+ 	 
+
+
+  <section class="page-section portfolio" id="portfolio">
+ 
+      <br>
+	  <br>
+      
+      <div class="row">
+ 
+        <div class="col-md-8 col-lg-6" style="margin-left:300px">
+		 <div class="control-group">
+			      <!-- Username -->
+				 <div class="col-12 text-center">
+                            <h2 class="mb-5"> <span>Login</span> </h2>
+                        </div>
+				 </br>
+				 </br>
+				
+			      <label class="control-label"   for="username"><b>Username</b></label>
+			      <div class="controls">
+			        <input type="text" id="uname" name="uname" placeholder="" class="form-control">
+			       
+				  </div>
+			    </div>
+				</br>
+			
+			    <div class="control-group">
+			      <!-- Password-->
+				  
+			      <label class="control-label"  for="password"><b>Password</b></label>
+			      <div class="controls">
+			        <input type="password" id="pwd" name="pwd" placeholder="" class="form-control">
+			      
+				  </div>
+			    </div>
+				 <div class="col-md-6 col-lg-4" style="margin-left:-150px">
+			    <div class="control-group">
+			      <!-- Button -->
+				  <br>
+			      <div class="controls">
+				   
+			        <input type="button" class="btn btn-primary" value="Login" style="margin-left: 380px" onclick="login()">
+			      
+				  </div>
+			    </div>
+				 </div>
+  </div>
+  </div>
+ 
+ 
+  </section>
+
+
+  
+
+    </body>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+       
+
+        <!-- JAVASCRIPT FILES -->
+        <script src="../static/js/jquery.min.js"></script>
+        <script src="../static/js/bootstrap.bundle.min.js"></script>
+        <script src="../static/js/Headroom.js"></script>
+        <script src="../static/js/jQuery.headroom.js"></script>
+        <script src="../static/js/slick.min.js"></script>
+        <script src="../static/js/custom.js"></script>
+    </body>
+</html>

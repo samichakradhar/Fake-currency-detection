@@ -1,0 +1,6 @@
+Identification of Fake Indian Currency using Convolutional Neural Network.
+
+Algorithm / Model Used: Xception Architecture.
+ 
+Training Accuracy : 93.34%. and 
+Validation Accuracy : 97.00%.
